@@ -1,7 +1,5 @@
 $(function() {
-    let year = new Date().getFullYear();
-    $('footer .year').html(year);
-    
+    setYear();    
     routing.init();
 });
 
@@ -17,7 +15,7 @@ const routing = {
             $.get(page, function(data) {
                 $('main').replaceWith(data);
             });
-            //also update the url
+            window.location = window.location.pathname + hash;
             mobileMenu.toggleMenu();
         }
     },
@@ -29,4 +27,9 @@ const routing = {
     updatePage: function() {
 
     }
+}
+
+const setYear = () => {
+    let year = new Date().getFullYear();
+    $('footer .year').html(year);
 }
