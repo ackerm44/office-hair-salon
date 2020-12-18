@@ -1,0 +1,36 @@
+:root {
+    --accent-color-1: #861845;
+}
+
+
+.home-hero {
+    background: url(../img/salon-hero-noir-420w.jpeg);
+    height: 210px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media (min-width: 421px) {
+    .home-hero {
+        height: 600px;
+        background: url(../img/salon-hero-noir-1200w.jpeg);
+    } 
+}
+
+#mobile-menu-icon div {
+    border-bottom: 2px solid;
+    width: 35px;
+    padding-top: 8px;
+}
+
+.top-bar {
+    background-color: var(--accent-color-1);
+    height: 35px;
+}
+.top-bar p, .top-bar a {
+    color: #fff;
+}

@@ -3,7 +3,10 @@
 2.  About the Salon and Stylist
 3.  Services
 4.  Contact
-5.  Book an Appointment - Phase 2
+    a.  Email
+    b.  Phone
+5.  Schedule an Appointment - Phase 2 (appointfix)
+6.  Reviews
 
 # Tracking and SEO
 1.  Search Console 
@@ -15,3 +18,10 @@
 # Art
 1.  Logo
 2.  
+
+## Descriptive Words
+casual, laid-back, experienced, mature, quiet, peaceful, refined
+no double-booking
+
+# Other
+1.  COVID message
