@@ -9,11 +9,11 @@ main {
 nav {
     background: var(--light-gray);
     box-shadow: 5px 5px 10px var(--dark-gray);
-    /* color: var(--accent-color-2); */
     position: absolute;
     height: 100vh;
     width: 100%;
     top: 0;
+    flex-direction: column;
 }
 nav p {
     /* color: var(--accent-color-2); */
@@ -171,5 +171,30 @@ iframe {
     .col-md-6 {
         max-width: 50%;
         flex: 50%;
+    }
+}
+
+@media (min-width: 60em) {
+    .col-lg-2 {
+        max-width: 16.666666666%;
+        flex: 16.666666666%;
+    }
+    .col-lg-4 {
+        max-width: 33.3333333333%;
+        flex: 33.3333333333%;
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    #mobile-menu-icon, nav .x-close, nav .divider, nav .arrow {
+        display: none;
+    }
+    nav {
+        background: unset;
+        box-shadow: unset; 
+        position: relative;
+        height: unset;
+        width: unset;
+        flex-direction: row;
     }
 }
