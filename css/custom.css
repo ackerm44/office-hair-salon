@@ -29,12 +29,6 @@ li {
     justify-content: center;
 
 }
-@media (min-width: 421px) {
-    .home-hero {
-        height: 550px;
-        background: url(../img/salon-hero-noir-1200w.jpeg);
-    } 
-}
 
 #mobile-menu-icon div {
     border-bottom: 2px solid;
@@ -46,8 +40,9 @@ li {
     background-color: var(--accent-color-1);
     height: 35px;
 }
-.top-bar p, .top-bar a {
+.top-bar p, .top-bar a, .top-bar span {
     color: #fff;
+    text-decoration: none;
 }
 
 .cta-button {
@@ -57,4 +52,19 @@ li {
     color: white;
     padding: 1em;
     box-shadow: 0 0 5px grey;
+}
+i.fa-phone {
+    display: none;  
+}
+
+@media (min-width: 30em) {
+    .home-hero {
+        height: 525px;
+        background: url(../img/salon-hero-noir-1200w.jpeg);
+    } 
+    i.fa-phone {
+        display: inline-block;
+        transform: scaleX(-1);
+        margin-right: 0.5em;
+    }
 }
