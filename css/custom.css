@@ -7,6 +7,16 @@
     --dark-gray: #444444;
 }
 
+body {
+    font-family: "Merriweather", sans-serif;
+}
+footer {
+    border-top: 2px solid var(--accent-color-1);
+}
+li {
+    padding: 0.3em 0;
+}
+
 
 .home-hero {
     background: url(../img/salon-hero-noir-420w.jpeg);
@@ -21,7 +31,7 @@
 }
 @media (min-width: 421px) {
     .home-hero {
-        height: 600px;
+        height: 550px;
         background: url(../img/salon-hero-noir-1200w.jpeg);
     } 
 }

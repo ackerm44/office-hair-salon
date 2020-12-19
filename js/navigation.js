@@ -8,13 +8,9 @@ const mobileMenu = {
         nav = $('header nav');
     }, 
     bindTaps: function() {
-        $('#mobile-menu-icon').click(function() {
+        $('#mobile-menu-icon, .x-close').click(function() {
             nav.toggleClass('show hide');
         });
-        $('.x-close').click(function() {
-            console.log('x click');
-            nav.toggleClass('show hide');
-        })
     },
     toggleMenu: function() {
         $('#mobile-menu-icon').next().toggleClass('show hide');

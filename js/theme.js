@@ -16,7 +16,9 @@ const routing = {
                 $('main').replaceWith(data);
             });
             window.location = window.location.pathname + hash;
-            mobileMenu.toggleMenu();
+            if (window.innerWidth < 960) {
+                mobileMenu.toggleMenu();
+            }
         }
     },
     bindMenu: function() {
