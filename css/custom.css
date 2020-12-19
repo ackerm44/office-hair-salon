@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "Merriweather", sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 footer {
     border-top: 2px solid var(--accent-color-1);
@@ -52,6 +52,9 @@ li {
     color: white;
     padding: 1em;
     box-shadow: 0 0 5px grey;
+}
+.cta-button:hover {
+    transform: translateY(-3px);
 }
 i.fa-phone {
     display: none;  
