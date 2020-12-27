@@ -56,7 +56,7 @@ li {
 .cta-button:hover {
     transform: translateY(-3px);
 }
-i.fa-phone {
+i.fas {
     display: none;  
 }
 
@@ -65,7 +65,7 @@ i.fa-phone {
         height: 525px;
         background: url(../img/salon-hero-noir-1200w.jpeg);
     } 
-    i.fa-phone {
+    i.fas {
         display: inline-block;
         transform: scaleX(-1);
         margin-right: 0.5em;
