@@ -250,7 +250,7 @@ iframe {
         align-items: center;
     }
     .display-lg-none {
-        display: none;
+        display: none !important;
     }
     #mobile-menu-icon, nav .x-close, nav .divider, nav .arrow {
         display: none;
